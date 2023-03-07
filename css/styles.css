@@ -53,11 +53,15 @@ body {
 
 /*nav_1*/
 .nav_1 ul {
-  display: flex;
-  justify-content: space-evenly !important;
-  align-items: center;
+  list-style: none;
   margin: 0;
-  padding: 5px 175px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_1 li a {
+  margin: 50px;
 }
 
 
@@ -85,5 +89,5 @@ body {
   color: red;
   font-family: sans-serif;
   text-decoration: underline;
-  font-weight: 400;
+  font-weight: 500;
 }
