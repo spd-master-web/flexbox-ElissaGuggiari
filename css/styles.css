@@ -1,0 +1,57 @@
+/*-----first rules-----*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*-----body-----*/
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+
+/*-----nav bar-----*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_flex {
+    background-color: #ffbac7;
+}
+
+.nav_flex ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px 175px;
+}
+
+.nav_flex li {
+  padding: 10px;
+  margin: 0 5px;
+  border-right: 1px solid red;
+}
+
+.nav_flex li:last-child {
+  border-right: none;
+}
+
+
+/*-----text-----*/
+.nav_flex a {
+  color: red;
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-weight: 400;
+}
