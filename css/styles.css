@@ -20,6 +20,7 @@ body {
 
 
 /*-----nav bar-----*/
+/*general*/
 .container {
     display: flex;
     justify-content: center;
@@ -28,6 +29,8 @@ body {
 
 .nav_flex {
     background-color: #ffbac7;
+    display: flex;
+    align-items: center;
 }
 
 .nav_flex ul {
@@ -45,6 +48,35 @@ body {
 
 .nav_flex li:last-child {
   border-right: none;
+}
+
+
+/*nav_1*/
+.nav_1 ul {
+  display: flex;
+  justify-content: space-evenly !important;
+  align-items: center;
+  margin: 0;
+  padding: 5px 175px;
+}
+
+
+
+
+/*nav_2*/
+.site_title {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  align-items: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.nav_2 ul {
+  padding: 5px 5px 5px 175px; 
 }
 
 
