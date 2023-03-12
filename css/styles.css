@@ -139,3 +139,59 @@ body {
 .cen_4 {
   order: -1;
 }
+
+/*-----layout-----*/
+.wrapper {
+  display: flex;
+  justify-content: center;
+  border: 2px dashed black;
+  width: 80%;
+  height: 80%;
+}
+
+.wrapper h2,
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+
+.nav {
+    background-color: #cccccc;
+    padding: 2% 1%;
+    width: 20%;
+}
+
+.nav ul {
+  list-style-position: inside;
+}
+
+.nav ul li {
+  padding-left: 30%;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 60%;
+    padding: 2% 1%;
+    position: relative;
+}
+
+.side {
+    background-color: #cccccc;
+    width: 20%;
+    padding: 2% 1%;
+}
+
+
+/*layout_1*/
+.copyright {
+  background-color: #eeeeee;
+  width: 96%;
+  height: 50px;
+  padding: 2% 1%;
+  position: absolute;
+  bottom: 2%;
+ }
+
+ /*layout_2*/
