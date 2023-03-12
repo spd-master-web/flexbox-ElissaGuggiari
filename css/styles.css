@@ -81,6 +81,10 @@ body {
     text-decoration: underline;
 }
 
+.site_title a {
+    color: white;
+}
+
 .nav_2 ul {
     padding: 5px 5px 5px 175px;
 }
@@ -141,7 +145,8 @@ p {
 /*-----layout-----*/
 .wrapper {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     border: 2px dashed black;
     width: 80%;
     height: 80%;
@@ -156,7 +161,7 @@ p {
 .nav {
     background-color: #cccccc;
     padding: 2% 1%;
-    width: 20%;
+    flex: 1 1 20%;
 }
 
 .nav ul {
@@ -169,15 +174,15 @@ p {
 
 .main {
     background-color: #ffffff;
-    width: 60%;
     padding: 2% 1%;
     position: relative;
+    flex: 1 1 60%;
 }
 
 .side {
     background-color: #cccccc;
-    width: 20%;
     padding: 2% 1%;
+    flex: 1 1 20%;
 }
 
 /*layout_1*/
@@ -200,14 +205,16 @@ p {
     text-decoration: underline;
 }
 
-.nav_layout_2 ul {
-    padding: 5px 5px 5px 175px;
+.nav_layout_2 ul {  
+  position: absolute;
+  right: 5%;
 }
 
 .container_layout_2 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex: 1 1 100%;
+    position: relative;
 }
 
 .nav_flex_layout_2 {
