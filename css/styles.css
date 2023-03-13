@@ -19,6 +19,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+
 /*-----nav bar-----*/
 /*general*/
 .container {
@@ -89,54 +91,6 @@ body {
     padding: 5px 5px 5px 175px;
 }
 
-/*-----centering-----*/
-/* .container_centering {
-    display: flex;
-    justify-content: center;
-    border: 2px dashed black;
-    padding: 15% 10%;
-}
-
-.centering {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 5px solid #ffbac7;
-    padding: 5%;
-    height: 200px;
-    width: 400px;
-}
-
-.centering h2,
-p {
-    display: block;
-}
-.centering h2 {
-    line-height: 250%;
-} */
-
-/*centering_2*/
-/* .cen_2 {
-    align-items: flex-start;
-}
-
-.flex_start {
-    align-items: flex-start;
-}
-
-.flex_end {
-    align-items: flex-end;
-}
-
-.flex_stretch {
-    align-items: stretch;
-} */
-
-
-
-
-
-
 
 
 /*-----centering-----*/
@@ -165,6 +119,8 @@ p {
 	line-height: 100%;
 }
 
+
+
 /*flex*/
 /* 
 .flex_start {
@@ -181,8 +137,10 @@ p {
 
 
 
-
-
+/*centering 2*/
+.centering.flex_2 {
+	height: 400px;
+}
 
 /*centering 3*/
 .centering.flex_start {
@@ -203,13 +161,6 @@ p {
 .cen_4 {
     flex-direction: column-reverse;
 }
-
-
-
-
-
-
-
 
 
 
