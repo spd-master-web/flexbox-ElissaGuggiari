@@ -99,6 +99,8 @@ body {
 	justify-content: center;
 	border: 2px dashed black;
 	margin: 15% 10%;
+  width: 1000px;
+  height: 600px;
 }
 
 .centering {
@@ -121,23 +123,6 @@ p {
 
 
 
-/*flex*/
-/* 
-.flex_start {
-	align-items: flex-start;
-}
-
-.flex_end {
-	align-items: flex-end;
-}
-
-.flex_stretch {
-	align-items: stretch;
-} */
-
-
-
-
 /*centering 1*/
 .centering_1 {
 	display: flex;
@@ -146,14 +131,16 @@ p {
 	border: 5px solid #ffbac7;
 	padding: 5%;
   margin: 30% 20%;
-	height: 200px;
+	height: 300px;
 	width: 800px;
+  align-self: center;
 }
 
 
 /*centering 2*/
 .centering.flex_2 {
-	height: 600px;
+	height: 300px;
+  align-self: center;
 }
 
 /*centering 3*/
