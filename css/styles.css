@@ -137,6 +137,20 @@ p {
 
 
 
+
+/*centering 1*/
+.centering_1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 5px solid #ffbac7;
+	padding: 5%;
+  margin: 30% 20%;
+	height: 200px;
+	width: 800px;
+}
+
+
 /*centering 2*/
 .centering.flex_2 {
 	height: 600px;
